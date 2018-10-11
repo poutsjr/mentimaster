@@ -6,6 +6,7 @@ import javax.persistence.Id;
 @Entity
 public class Answer {
 
+    @Id
     private Long id;
 
     private String value;
